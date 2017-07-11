@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD3430B51F147471008A721C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3430B41F147471008A721C /* main.m */; };
+		DD3430B81F147471008A721C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3430B71F147471008A721C /* AppDelegate.m */; };
+		DD3430BB1F147471008A721C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3430BA1F147471008A721C /* ViewController.m */; };
+		DD3430BE1F147471008A721C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD3430BC1F147471008A721C /* Main.storyboard */; };
+		DD3430C01F147471008A721C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD3430BF1F147471008A721C /* Assets.xcassets */; };
+		DD3430C31F147471008A721C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD3430C11F147471008A721C /* LaunchScreen.storyboard */; };
+		DD3430CE1F147471008A721C /* AES__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3430CD1F147471008A721C /* AES__Tests.m */; };
+		DD3430D91F147471008A721C /* AES__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3430D81F147471008A721C /* AES__UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD3430CA1F147471008A721C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD3430A81F147471008A721C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD3430AF1F147471008A721C;
+			remoteInfo = "AES加密";
+		};
+		DD3430D51F147471008A721C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD3430A81F147471008A721C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD3430AF1F147471008A721C;
+			remoteInfo = "AES加密";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD3430B01F147471008A721C /* AES加密.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AES加密.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD3430B41F147471008A721C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD3430B61F147471008A721C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DD3430B71F147471008A721C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DD3430B91F147471008A721C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DD3430BA1F147471008A721C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DD3430BD1F147471008A721C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD3430BF1F147471008A721C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD3430C21F147471008A721C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD3430C41F147471008A721C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD3430C91F147471008A721C /* AES加密Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AES加密Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD3430CD1F147471008A721C /* AES__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AES__Tests.m; sourceTree = "<group>"; };
+		DD3430CF1F147471008A721C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD3430D41F147471008A721C /* AES加密UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AES加密UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD3430D81F147471008A721C /* AES__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AES__UITests.m; sourceTree = "<group>"; };
+		DD3430DA1F147471008A721C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD3430AD1F147471008A721C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD3430C61F147471008A721C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD3430D11F147471008A721C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD3430A71F147471008A721C = {
+			isa = PBXGroup;
+			children = (
+				DD3430B21F147471008A721C /* AES加密 */,
+				DD3430CC1F147471008A721C /* AES加密Tests */,
+				DD3430D71F147471008A721C /* AES加密UITests */,
+				DD3430B11F147471008A721C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD3430B11F147471008A721C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD3430B01F147471008A721C /* AES加密.app */,
+				DD3430C91F147471008A721C /* AES加密Tests.xctest */,
+				DD3430D41F147471008A721C /* AES加密UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD3430B21F147471008A721C /* AES加密 */ = {
+			isa = PBXGroup;
+			children = (
+				DD3430B61F147471008A721C /* AppDelegate.h */,
+				DD3430B71F147471008A721C /* AppDelegate.m */,
+				DD3430B91F147471008A721C /* ViewController.h */,
+				DD3430BA1F147471008A721C /* ViewController.m */,
+				DD3430BC1F147471008A721C /* Main.storyboard */,
+				DD3430BF1F147471008A721C /* Assets.xcassets */,
+				DD3430C11F147471008A721C /* LaunchScreen.storyboard */,
+				DD3430C41F147471008A721C /* Info.plist */,
+				DD3430B31F147471008A721C /* Supporting Files */,
+			);
+			path = "AES加密";
+			sourceTree = "<group>";
+		};
+		DD3430B31F147471008A721C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD3430B41F147471008A721C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD3430CC1F147471008A721C /* AES加密Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DD3430CD1F147471008A721C /* AES__Tests.m */,
+				DD3430CF1F147471008A721C /* Info.plist */,
+			);
+			path = "AES加密Tests";
+			sourceTree = "<group>";
+		};
+		DD3430D71F147471008A721C /* AES加密UITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD3430D81F147471008A721C /* AES__UITests.m */,
+				DD3430DA1F147471008A721C /* Info.plist */,
+			);
+			path = "AES加密UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD3430AF1F147471008A721C /* AES加密 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD3430DD1F147471008A721C /* Build configuration list for PBXNativeTarget "AES加密" */;
+			buildPhases = (
+				DD3430AC1F147471008A721C /* Sources */,
+				DD3430AD1F147471008A721C /* Frameworks */,
+				DD3430AE1F147471008A721C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AES加密";
+			productName = "AES加密";
+			productReference = DD3430B01F147471008A721C /* AES加密.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD3430C81F147471008A721C /* AES加密Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD3430E01F147471008A721C /* Build configuration list for PBXNativeTarget "AES加密Tests" */;
+			buildPhases = (
+				DD3430C51F147471008A721C /* Sources */,
+				DD3430C61F147471008A721C /* Frameworks */,
+				DD3430C71F147471008A721C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD3430CB1F147471008A721C /* PBXTargetDependency */,
+			);
+			name = "AES加密Tests";
+			productName = "AES加密Tests";
+			productReference = DD3430C91F147471008A721C /* AES加密Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD3430D31F147471008A721C /* AES加密UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD3430E31F147471008A721C /* Build configuration list for PBXNativeTarget "AES加密UITests" */;
+			buildPhases = (
+				DD3430D01F147471008A721C /* Sources */,
+				DD3430D11F147471008A721C /* Frameworks */,
+				DD3430D21F147471008A721C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD3430D61F147471008A721C /* PBXTargetDependency */,
+			);
+			name = "AES加密UITests";
+			productName = "AES加密UITests";
+			productReference = DD3430D41F147471008A721C /* AES加密UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD3430A81F147471008A721C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "苗建浩";
+				TargetAttributes = {
+					DD3430AF1F147471008A721C = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					DD3430C81F147471008A721C = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DD3430AF1F147471008A721C;
+					};
+					DD3430D31F147471008A721C = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DD3430AF1F147471008A721C;
+					};
+				};
+			};
+			buildConfigurationList = DD3430AB1F147471008A721C /* Build configuration list for PBXProject "AES加密" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD3430A71F147471008A721C;
+			productRefGroup = DD3430B11F147471008A721C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD3430AF1F147471008A721C /* AES加密 */,
+				DD3430C81F147471008A721C /* AES加密Tests */,
+				DD3430D31F147471008A721C /* AES加密UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD3430AE1F147471008A721C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD3430C31F147471008A721C /* LaunchScreen.storyboard in Resources */,
+				DD3430C01F147471008A721C /* Assets.xcassets in Resources */,
+				DD3430BE1F147471008A721C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD3430C71F147471008A721C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD3430D21F147471008A721C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD3430AC1F147471008A721C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD3430BB1F147471008A721C /* ViewController.m in Sources */,
+				DD3430B81F147471008A721C /* AppDelegate.m in Sources */,
+				DD3430B51F147471008A721C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD3430C51F147471008A721C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD3430CE1F147471008A721C /* AES__Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD3430D01F147471008A721C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD3430D91F147471008A721C /* AES__UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD3430CB1F147471008A721C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD3430AF1F147471008A721C /* AES加密 */;
+			targetProxy = DD3430CA1F147471008A721C /* PBXContainerItemProxy */;
+		};
+		DD3430D61F147471008A721C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD3430AF1F147471008A721C /* AES加密 */;
+			targetProxy = DD3430D51F147471008A721C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD3430BC1F147471008A721C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD3430BD1F147471008A721C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD3430C11F147471008A721C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD3430C21F147471008A721C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD3430DB1F147471008A721C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD3430DC1F147471008A721C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD3430DE1F147471008A721C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "AES加密/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ganZhi.AES--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DD3430DF1F147471008A721C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "AES加密/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ganZhi.AES--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DD3430E11F147471008A721C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "AES加密Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ganZhi.AES--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AES加密.app/AES加密";
+			};
+			name = Debug;
+		};
+		DD3430E21F147471008A721C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "AES加密Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ganZhi.AES--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AES加密.app/AES加密";
+			};
+			name = Release;
+		};
+		DD3430E41F147471008A721C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "AES加密UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ganZhi.AES--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "AES加密";
+			};
+			name = Debug;
+		};
+		DD3430E51F147471008A721C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "AES加密UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ganZhi.AES--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "AES加密";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD3430AB1F147471008A721C /* Build configuration list for PBXProject "AES加密" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD3430DB1F147471008A721C /* Debug */,
+				DD3430DC1F147471008A721C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD3430DD1F147471008A721C /* Build configuration list for PBXNativeTarget "AES加密" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD3430DE1F147471008A721C /* Debug */,
+				DD3430DF1F147471008A721C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DD3430E01F147471008A721C /* Build configuration list for PBXNativeTarget "AES加密Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD3430E11F147471008A721C /* Debug */,
+				DD3430E21F147471008A721C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DD3430E31F147471008A721C /* Build configuration list for PBXNativeTarget "AES加密UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD3430E41F147471008A721C /* Debug */,
+				DD3430E51F147471008A721C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD3430A81F147471008A721C /* Project object */;
+}
