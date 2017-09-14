@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "AESCipher.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,18 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    NSString *plainText = @"IAmThePlainText";
+    NSString *key = @"16BytesLengthKey";
+    
+    NSString *cipherText = aesEncryptString(plainText, key);
+    
+    NSLog(@"%@", cipherText);
+    
+    NSString *decryptedText = aesDecryptString(cipherText, key);
+    
+    NSLog(@"%@", decryptedText);
+    
 }
 
 

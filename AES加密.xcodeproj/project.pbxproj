@@ -15,6 +15,7 @@
 		DD3430C31F147471008A721C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD3430C11F147471008A721C /* LaunchScreen.storyboard */; };
 		DD3430CE1F147471008A721C /* AES__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3430CD1F147471008A721C /* AES__Tests.m */; };
 		DD3430D91F147471008A721C /* AES__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3430D81F147471008A721C /* AES__UITests.m */; };
+		DD3430E91F14A7C9008A721C /* AESCipher.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3430E81F14A7C9008A721C /* AESCipher.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		DD3430D41F147471008A721C /* AES加密UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AES加密UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD3430D81F147471008A721C /* AES__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AES__UITests.m; sourceTree = "<group>"; };
 		DD3430DA1F147471008A721C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD3430E71F14A7C9008A721C /* AESCipher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AESCipher.h; sourceTree = "<group>"; };
+		DD3430E81F14A7C9008A721C /* AESCipher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AESCipher.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		DD3430B21F147471008A721C /* AES加密 */ = {
 			isa = PBXGroup;
 			children = (
+				DD3430E61F14A7C9008A721C /* AESCipher */,
 				DD3430B61F147471008A721C /* AppDelegate.h */,
 				DD3430B71F147471008A721C /* AppDelegate.m */,
 				DD3430B91F147471008A721C /* ViewController.h */,
@@ -138,6 +142,15 @@
 				DD3430DA1F147471008A721C /* Info.plist */,
 			);
 			path = "AES加密UITests";
+			sourceTree = "<group>";
+		};
+		DD3430E61F14A7C9008A721C /* AESCipher */ = {
+			isa = PBXGroup;
+			children = (
+				DD3430E71F14A7C9008A721C /* AESCipher.h */,
+				DD3430E81F14A7C9008A721C /* AESCipher.m */,
+			);
+			path = AESCipher;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +220,7 @@
 				TargetAttributes = {
 					DD3430AF1F147471008A721C = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = B7UQ7WHB5T;
 						ProvisioningStyle = Automatic;
 					};
 					DD3430C81F147471008A721C = {
@@ -275,6 +289,7 @@
 			files = (
 				DD3430BB1F147471008A721C /* ViewController.m in Sources */,
 				DD3430B81F147471008A721C /* AppDelegate.m in Sources */,
+				DD3430E91F14A7C9008A721C /* AESCipher.m in Sources */,
 				DD3430B51F147471008A721C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,7 +439,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B7UQ7WHB5T;
 				INFOPLIST_FILE = "AES加密/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ganZhi.AES--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -435,7 +452,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B7UQ7WHB5T;
 				INFOPLIST_FILE = "AES加密/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ganZhi.AES--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -507,6 +526,7 @@
 				DD3430DF1F147471008A721C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD3430E01F147471008A721C /* Build configuration list for PBXNativeTarget "AES加密Tests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +535,7 @@
 				DD3430E21F147471008A721C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD3430E31F147471008A721C /* Build configuration list for PBXNativeTarget "AES加密UITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +544,7 @@
 				DD3430E51F147471008A721C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
